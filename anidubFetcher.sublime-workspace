@@ -7,6 +7,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/js/index.js",
+			"settings":
+			{
+				"buffer_size": 1262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/components/pages/itemDetails/index.js",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/components/pages/itemsList/index.js",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -15,13 +47,41 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "packa",
+		"height": 298.0,
+		"last_filter": "set syntax cs",
 		"selected_items":
 		[
 			[
+				"set syntax cs",
+				"Set Syntax: SCSS"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
+			],
+			[
+				"set syntax jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
 			],
 			[
 				"pa",
@@ -53,14 +113,42 @@
 	},
 	"expanded_folders":
 	[
-		"/home/yo/workspace/anidubFetcher"
+		"/home/yo/workspace/anidubFetcher",
+		"/home/yo/workspace/anidubFetcher/node_modules/bootstrap-sass/assets/javascripts",
+		"/home/yo/workspace/anidubFetcher/node_modules/bootstrap-sass/assets/stylesheets",
+		"/home/yo/workspace/anidubFetcher/src",
+		"/home/yo/workspace/anidubFetcher/src/js",
+		"/home/yo/workspace/anidubFetcher/src/js/components",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemDetails",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemsList",
+		"/home/yo/workspace/anidubFetcher/src/js/components/primitives"
 	],
 	"file_history":
 	[
+		"/home/yo/workspace/anidubFetcher/build/index.html",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemDetails/index.jsx",
+		"/home/yo/workspace/anidubFetcher/src/js/components/primitives/listItem.jsx",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/list/index.jsx",
+		"/home/yo/workspace/anidubFetcher/gulpfile.js",
+		"/home/yo/workspace/anidubFetcher/src/js/components/pages/itemDescription/index.jsx",
+		"/home/yo/workspace/anidubFetcher/src/js/dispatcher.js",
+		"/home/yo/workspace/anidubFetcher/src/js/components/App.jsx",
+		"/home/yo/workspace/anidubFetcher/node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/home/yo/workspace/anidubFetcher/src/scss/main.scss",
+		"/home/yo/workspace/anidubFetcher/src/index.html",
+		"/home/yo/workspace/anidubFetcher/build/css/bundle.css",
+		"/home/yo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/yo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/yo/workspace/anidubFetcher/src/js/index.js",
+		"/home/yo/workspace/anidubFetcher/build/js/bundle.js",
+		"/home/yo/workspace/anidubFetcher/build/css/main.css",
+		"/home/yo/workspace/anidubFetcher/node_modules/react/dist/JSXTransformer.js",
+		"/home/yo/workspace/anidubFetcher/package.json"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -74,6 +162,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"react"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -91,18 +180,134 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/js/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								799
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/components/pages/itemDetails/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/components/pages/itemsList/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -135,7 +340,7 @@
 	"project": "anidubFetcher.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -144,6 +349,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"index",
+				"build/index.html"
+			]
 		],
 		"width": 0.0
 	},
@@ -173,7 +386,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 301.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

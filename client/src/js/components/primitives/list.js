@@ -26,21 +26,15 @@ var BackboneMixin = {
 };
 
 
-
 var ItemsList = React.createClass({
   mixins: [BackboneMixin],
-  list: null,
-
-  getInitialState: function() {
-    this.list = Store;
-    return null;
-  },
+  list: [],
 
   getBackboneModels: function() {
-    return this.list;
+    return [this.props.items];
   },
   render: function() {
-    var listItems = this.list.map(function(item) {
+    var listItems = this.props.items.map(function(item) {
       return (<ListItem item={item} />);
     }, this);
 

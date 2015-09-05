@@ -13,28 +13,13 @@ var ItemList = Backbone.Collection.extend({
   model: ItemModel,
 
   initialize: function() {
-    this.loadItems([
-        {
-          id: 0,
-          title: 'title0'
-        },
-        {
-          id: 1,
-          title: 'title1'
-        },
-        {
-          id: 2,
-          title: 'title2'
-        },
-        {
-          id: 3,
-          title: 'title3'
-        },
-        {
-          id: 4,
-          title: 'title4'
-        },
-      ]);
+    var res = fetch('http://127.0.0.1:8888/');
+    var self = this;
+    res.then(function(response){
+      return response.json()
+    }).then(function(json){
+      self.loadItems(json);
+    });
   },
 
   loadItems: function(data) {

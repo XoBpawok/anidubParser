@@ -25,13 +25,13 @@ var App = React.createClass({
 });
 
 var routes = {
-    ItemsList: require('components/pages/itemsList'),
+    Home: require('components/pages/home'),
     ItemDetails: require('components/pages/itemDetails')
 };
 
 var routes = (
     <Router.Route name="app" path="/" handler={App}>
-        <Router.Route name="itemsList" path="/" handler={routes.ItemsList} />
+        <Router.Route name="itemsList" path="/" handler={routes.Home} />
         <Router.Route name="itemDetails" path="item/:id" handler={routes.ItemDetails} />
     </Router.Route>
 );

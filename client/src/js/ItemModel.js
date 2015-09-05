@@ -9,16 +9,16 @@ Backbone.$ = $;
 
 var ItemModel = Backbone.Model.extend({
   defaults: {
-    id: NaN,
+    id: '',
     title: '',
     details: null,
   },
 
   initialize: function(data) {
-    this.set({
-      id: data.id,
-      title: data.title
-    })
+    var id = data.link.split('/');
+    id = id[id.length - 1].split('.')[0];
+    data.id = id;
+    this.set(data);
   },
 
   fetchDetails: function() {
